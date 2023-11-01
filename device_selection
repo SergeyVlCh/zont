@@ -1,3 +1,4 @@
+
 brand = int(input('''Выберите марку котла:
     
 Arderia     - нажмите 1
@@ -206,3 +207,56 @@ Pony                              - нажмите 8
 Solid                             - нажмите 9
 ---------------------------------------------
 '''))
+
+if ((brand, model) == (1, 1) or (brand, model) == (1, 2) or (brand, model) == (1, 3) or (brand, model) == (1, 6) or (brand, model) == (1, 7)):
+    print('''
+Подключение приборов ZONT к котлу:
+
+ZONT H-1V.02 - релейное, через внешний адаптер
+ZONT SMART 2.0 - релейное, через внешний адаптер
+ZONT H700+ PRO - релейное, через внешний адаптер
+ZONT H1000+ PRO - релейное, через внешний адаптер
+ZONT H1500+ PRO - релейное, через внешний адаптер
+ZONT H2000+ PRO - релейное, через внешний адаптер
+ZONT Climatic 1.1 - только релейное
+ZONT Climatic 1.2 - только релейное
+ZONT Climatic 1.3 - только релейное
+ZONT Climatic OPTIMA - только релейное
+ZONT H-1V NEW - релейное, через внешний адаптер
+ZONT SMART NEW - релейное, через внешний адаптер
+''')
+elif ((brand, model) == (2, 7) or (brand, model) == (2, 11) or (brand, model) == (4, 1) or (brand, model) == (4, 7) or (brand, model) == (4, 8) or (brand, model) == (4, 9) or (brand, model) == (4, 10) or (brand, model) == (4, 11) or (brand, model) == (4, 12) or (brand, model) == (4, 13) or (brand, model) == (4, 14) or (brand, model) == (5, 1) or (brand, model) == (5, 2) or (brand, model) == (5, 3) or (brand, model) == (5, 6) or (brand, model) == (5, 7) or (brand, model) == (5, 10) or (brand, model) == (5, 11) or (brand, model) == (5, 12) or (brand, model) == (5, 13) or (brand, model) == (5, 14) or (brand, model) == (6, 1) or (brand, model) == (6, 3) or (brand, model) == (6, 4) or (brand, model) == (6, 5) or (brand, model) == (6, 6) or (brand, model) == (6, 7) or (brand, model) == (6, 8) or (brand, model) == (6, 9) or (brand, model) == (6, 10) or (brand, model) == (7, 2) or (brand, model) == (7, 3) or (brand, model) == (7, 7) or (brand, model) == (8, 4) or (brand, model) == (8, 6) or (brand, model) == (8, 7) or (brand, model) == (8, 9)):
+    print('''
+Подключение приборов ZONT к котлу:
+
+ZONT H-1V.02 - релейное, через внешний адаптер
+ZONT SMART 2.0 - релейное, через внешний адаптер
+ZONT H700+ PRO - релейное, через внешний адаптер
+ZONT H1000+ PRO - релейное, через внешний адаптер, через встроенный адаптер
+ZONT H1500+ PRO - релейное, через внешний адаптер
+ZONT H2000+ PRO - релейное, через внешний адаптер, через встроенный адаптер
+ZONT Climatic 1.1 - релейное, через внешний адаптер
+ZONT Climatic 1.2 - релейное, через внешний адаптер
+ZONT Climatic 1.3 - релейное, через внешний адаптер
+ZONT Climatic OPTIMA - релейное, через внешний адаптер
+ZONT H-1V NEW - релейное, через внешний адаптер
+ZONT SMART NEW - релейное, через внешний адаптер
+''')
+else:
+    print('''
+Подключение приборов ZONT к котлу:
+
+ZONT H-1V.02 - только релейное
+ZONT SMART 2.0 - только релейное
+ZONT H700+ PRO - только релейное
+ZONT H1000+ PRO - только релейное
+ZONT H1500+ PRO - только релейное
+ZONT H2000+ PRO - только релейное
+ZONT Climatic 1.1 - только релейное
+ZONT Climatic 1.2 - только релейное
+ZONT Climatic 1.3 - только релейное
+ZONT Climatic OPTIMA - только релейное
+ZONT H-1V NEW - только релейное
+ZONT SMART NEW - только релейное
+''')
+  
